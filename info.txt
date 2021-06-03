@@ -1,0 +1,2 @@
+dbuser: naim42
+dbpass: b6sePJbfSGhm2r0z

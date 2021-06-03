@@ -1,0 +1,350 @@
+{"message":"hello info","level":"info"}
+{"message":"hello info","level":"info"}
+{"message":"\u001b[0mGET /login \u001b[36m304\u001b[0m 4.766 ms - -\u001b[0m\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:05:53:08 +0000] \"GET /login HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::1 - - [09/May/2021:05:53:42 +0000] \"GET /login HTTP/1.1\" 200 35 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/May/2021:05:53:42 +0000] \"GET /favicon.ico HTTP/1.1\" 200 53 \"http://localhost:5000/login\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:38:48 +0000] \"GET /movies HTTP/1.1\" 200 48 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:38:48 +0000] \"GET /favicon.ico HTTP/1.1\" 200 53 \"http://localhost:5000/movies\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:41:11 +0000] \"GET /movies HTTP/1.1\" 200 1026 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:45:27 +0000] \"GET /movies HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:55:14 +0000] \"GET /movies/naim HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:55:23 +0000] \"GET /movies/page/naim HTTP/1.1\" 400 11 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:56:42 +0000] \"GET /movies/page/1 HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:57:44 +0000] \"GET /movies/page/1 HTTP/1.1\" 200 12474 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:57:48 +0000] \"GET /movies/page/1 HTTP/1.1\" 200 12474 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:58:14 +0000] \"GET /movies/page/2 HTTP/1.1\" 200 13664 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:58:28 +0000] \"GET /movies/page/2 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:06:58:32 +0000] \"GET /movies/page/3 HTTP/1.1\" 200 14945 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:00:06 +0000] \"GET /movies/page/4 HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:03:50 +0000] \"GET /movies/page/4 HTTP/1.1\" 200 15476 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:04:03 +0000] \"GET /movies/page/3 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:13:27 +0000] \"GET /movies/1 HTTP/1.1\" 200 12474 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:21:19 +0000] \"GET /573a1390f29313caabcd4803 HTTP/1.1\" 200 66 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:22:06 +0000] \"GET /movies/573a1390f29313caabcd4803 HTTP/1.1\" 200 16609 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:22:27 +0000] \"GET /movies/573a1390f29313caabcd4803 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:22:34 +0000] \"GET /movies/573a1390f29313caabcd4803 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:22:50 +0000] \"GET /movies/573a1390f29313caabcd446f HTTP/1.1\" 200 16609 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:23:01 +0000] \"GET /movies/573a1390f29313caabcd4422 HTTP/1.1\" 200 16609 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:25:19 +0000] \"GET /movies/573a1390f29313caabcd446f HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:25:39 +0000] \"GET /movies/573a1390f29313caabcd446f HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:25:53 +0000] \"GET /movies/573a1390f29313caabcd516c HTTP/1.1\" 200 16609 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:27:31 +0000] \"GET /movies/573a1390f29313caabcd516c HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:28:03 +0000] \"GET /movies/573a1390f29313caabcd516c HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:28:35 +0000] \"GET /movies/page/573a1390f29313caabcd516c HTTP/1.1\" 200 11 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:28:47 +0000] \"GET /movies/573a1390f29313caabcd516c HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:29:33 +0000] \"GET /movies/573a1390f29313caabcd516c HTTP/1.1\" 404 170 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:29:42 +0000] \"GET /movies/id/573a1390f29313caabcd516c HTTP/1.1\" 200 11 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:31:00 +0000] \"GET /movies/ HTTP/1.1\" 200 1026 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:31:38 +0000] \"GET /movies/id/573a1390f29313caabcd516c HTTP/1.1\" 200 1016 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:33:56 +0000] \"GET /movies/id/573a1390f29313caabcd516c HTTP/1.1\" 200 11 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:34:25 +0000] \"GET /movies/id/573a1390f29313caabcd516c HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:34:35 +0000] \"GET /movies/id/573a1390f29313caabcd516c HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:34:55 +0000] \"GET /movies/id/573a1390f29313caabcd516c HTTP/1.1\" 200 1016 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:35:10 +0000] \"GET /movies/id/5 HTTP/1.1\" 500 1325 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:35:22 +0000] \"GET /movies/id/5a HTTP/1.1\" 500 1325 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:35:35 +0000] \"GET /movies/id/573a1390f29313caabcd516c HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:35:56 +0000] \"GET /movies/id/573a1390f29313caabcd4803 HTTP/1.1\" 200 1348 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:36:05 +0000] \"GET /movies/id/573a1390f29 HTTP/1.1\" 500 1325 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:37:24 +0000] \"GET /movies/id/573a1390f29 HTTP/1.1\" 500 1325 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:37:40 +0000] \"GET /movies/id/573a1390f29313caabcd4803 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:07:37:54 +0000] \"GET /movies/id/573a1390f29313caabcd4803 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:192.168.0.103 - - [09/May/2021:08:19:56 +0000] \"GET / HTTP/1.1\" 200 35 \"-\" \"Avast Antivirus\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:08:36:31 +0000] \"GET /movies/id/573a1390f29313caabcd4803 HTTP/1.1\" 200 1348 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:08:42:42 +0000] \"GET /movies/id/573a1390f29313caabcd4803 HTTP/1.1\" 200 1348 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:08:42:45 +0000] \"GET /movies/1 HTTP/1.1\" 404 147 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:08:42:49 +0000] \"GET /movies HTTP/1.1\" 200 1026 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:54:25 +0000] \"GET /movies HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:55:06 +0000] \"GET /movies/movies HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:57:57 +0000] \"GET /movies/movies HTTP/1.1\" 404 23 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:58:07 +0000] \"GET /movies/1233ads HTTP/1.1\" 404 23 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:58:12 +0000] \"GET /movies/1233ads HTTP/1.1\" 404 23 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:58:16 +0000] \"GET /movies/1 HTTP/1.1\" 404 23 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:58:21 +0000] \"GET /movies/page/2 HTTP/1.1\" 200 13664 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:58:26 +0000] \"GET /movies/page/2a HTTP/1.1\" 200 13664 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:58:32 +0000] \"GET /movies/page/2abf HTTP/1.1\" 200 13664 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:58:38 +0000] \"GET /movies/page/573a1390f29313caabcd5501 HTTP/1.1\" 200 16609 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:58:48 +0000] \"GET /movies/id/573a1390f29313caabcd5501 HTTP/1.1\" 200 1386 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Argument passed in must be a Buffer or string of 12 bytes or a string of 24 hex characters","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:11:58:53 +0000] \"GET /movies/id/573 HTTP/1.1\" 500 1084 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Argument passed in must be a Buffer or string of 12 bytes or a string of 24 hex characters","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:01:05 +0000] \"GET /movies/id/573 HTTP/1.1\" 500 1084 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Argument passed in must be a Buffer or string of 12 bytes or a string of 24 hex characters","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:01:29 +0000] \"GET /movies/id/573 HTTP/1.1\" 500 1084 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Cannot access '_id' before initialization","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:01:40 +0000] \"GET /movies/id/573 HTTP/1.1\" 500 1084 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Bad Request","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:02:00 +0000] \"GET /movies/id/573 HTTP/1.1\" 400 25 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:02:11 +0000] \"GET /movies/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:02:18 +0000] \"GET /movies/id/573a1390f29313caabcd4135 HTTP/1.1\" 200 1026 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Bad Request","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:02:23 +0000] \"GET /movies/id/573a1390f29313caabcd41 HTTP/1.1\" 400 25 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:04:06 +0000] \"GET /movies/new HTTP/1.1\" 404 23 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:04:10 +0000] \"GET /movies/page HTTP/1.1\" 404 23 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:04:15 +0000] \"GET /movies/page/1 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:04:21 +0000] \"GET /movies/page/1ssasd HTTP/1.1\" 200 12474 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:04:27 +0000] \"GET /movies/page/2ssasd HTTP/1.1\" 200 13664 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Bad Request","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:04:47 +0000] \"GET /movies/id/123ssad HTTP/1.1\" 400 25 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:04:59 +0000] \"GET /movies/id/573a1390f29313caabcd4135 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:13:14 +0000] \"GET /movies/id/573a1390f29313caabcd4135 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::1 - - [09/May/2021:12:16:33 +0000] \"GET /movies/id/573a1390f29313caabcd4135 HTTP/1.1\" 200 1026 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [09/May/2021:12:16:45 +0000] \"GET /movies/id/573a1390f29313caabcd4135 HTTP/1.1\" 200 1026 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [09/May/2021:12:17:03 +0000] \"GET /movies/ipage/1 HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [09/May/2021:12:17:16 +0000] \"GET /movies/page/1 HTTP/1.1\" 200 12474 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [09/May/2021:12:17:51 +0000] \"GET /movies/id/573a1390f29313caabcd4135 HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [09/May/2021:12:18:04 +0000] \"GET /movies/page/ HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [09/May/2021:12:18:31 +0000] \"GET /movies/page/1 HTTP/1.1\" 200 12474 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [09/May/2021:12:18:42 +0000] \"GET /movies/page/2 HTTP/1.1\" 200 13664 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [09/May/2021:12:19:20 +0000] \"GET /movies/page/1 HTTP/1.1\" 200 156299 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [09/May/2021:12:19:54 +0000] \"GET /movies/page/1 HTTP/1.1\" 200 12474 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [09/May/2021:12:20:49 +0000] \"GET /movies/id/573a1390f29313caabcd42e8 HTTP/1.1\" 200 1262 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [10/May/2021:07:52:41 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [10/May/2021:07:52:41 +0000] \"GET /favicon.ico HTTP/1.1\" 200 53 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:07:53:14 +0000] \"GET /signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"name":"MongoError","level":"error"}
+{"message":"::1 - - [10/May/2021:07:54:49 +0000] \"GET /signup HTTP/1.1\" 200 48 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [10/May/2021:07:56:02 +0000] \"GET /auth/signup HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [10/May/2021:07:58:21 +0000] \"GET /auth/signup HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:07:58:37 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:19:14 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:20:20 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::ffff:192.168.0.108 - - [10/May/2021:08:22:19 +0000] \"GET / HTTP/1.1\" 200 35 \"-\" \"Avast Antivirus\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:22:59 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:23:14 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:24:39 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:25:10 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user.validate is not a function","level":"error"}
+{"message":"::1 - - [10/May/2021:08:27:32 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user.validate is not a function","level":"error"}
+{"message":"::1 - - [10/May/2021:08:28:11 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:28:46 +0000] \"POST /auth/signup HTTP/1.1\" 200 543 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:29:31 +0000] \"POST /auth/signup HTTP/1.1\" 200 220 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Cannot read property 'message' of undefined","level":"error"}
+{"message":"::1 - - [10/May/2021:08:30:11 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:30:30 +0000] \"POST /auth/signup HTTP/1.1\" 200 220 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Cannot read property 'message' of undefined","level":"error"}
+{"message":"::1 - - [10/May/2021:08:30:41 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Cannot read property 'message' of undefined","level":"error"}
+{"message":"::1 - - [10/May/2021:08:31:16 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:33:32 +0000] \"POST /auth/signup HTTP/1.1\" 200 220 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Cannot read property 'message' of undefined","level":"error"}
+{"message":"::1 - - [10/May/2021:08:33:42 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:35:21 +0000] \"POST /auth/signup HTTP/1.1\" 200 9 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:08:35:38 +0000] \"POST /auth/signup HTTP/1.1\" 200 220 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:09:30:43 +0000] \"POST /auth/signup HTTP/1.1\" 200 220 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:09:30:53 +0000] \"POST /auth/signup HTTP/1.1\" 200 55 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:09:31:25 +0000] \"POST /auth/signup HTTP/1.1\" 200 55 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:09:31:53 +0000] \"POST /auth/signup HTTP/1.1\" 200 55 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:09:32:06 +0000] \"POST /auth/signup HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:09:32:18 +0000] \"POST /auth/signup HTTP/1.1\" 200 15 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:09:32:42 +0000] \"POST /auth/signup HTTP/1.1\" 200 2 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [10/May/2021:09:34:07 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:10:06:48 +0000] \"POST /auth/signup HTTP/1.1\" 200 15 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:11:44:28 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:11:45:24 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:11:45:50 +0000] \"POST /auth/signup HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:11:46:07 +0000] \"POST /auth/signup HTTP/1.1\" 200 220 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:11:46:21 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:11:46:52 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [10/May/2021:11:47:13 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:11:48:25 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [10/May/2021:11:48:40 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/May/2021:11:49:15 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [01/Jun/2021:04:11:05 +0000] \"GET / HTTP/1.1\" 200 35 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [01/Jun/2021:04:11:05 +0000] \"GET /favicon.ico HTTP/1.1\" 200 53 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [01/Jun/2021:04:11:12 +0000] \"GET /auth HTTP/1.1\" 200 46 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"redirect is not defined","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [01/Jun/2021:04:22:51 +0000] \"GET /auth HTTP/1.1\" 500 1084 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"redirect is not defined","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [01/Jun/2021:04:22:54 +0000] \"GET /auth HTTP/1.1\" 500 1084 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [01/Jun/2021:04:23:35 +0000] \"GET /auth HTTP/1.1\" 200 46 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [01/Jun/2021:04:40:28 +0000] \"GET /auth HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:16 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:34 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:37 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:39 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:40 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:52 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:53 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:54 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:55 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:56 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:56 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:42:57 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:43:08 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:04:43:17 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:05:55 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:08:31 +0000] \"POST /auth/signup HTTP/1.1\" 200 18 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:08:56 +0000] \"POST /auth/signup HTTP/1.1\" 200 19 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:09:31 +0000] \"POST /auth/signup HTTP/1.1\" 200 22 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:09:57 +0000] \"POST /auth/signup HTTP/1.1\" 200 220 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:10:18 +0000] \"POST /auth/signup HTTP/1.1\" 200 220 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:10:36 +0000] \"POST /auth/signup HTTP/1.1\" 200 220 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:10:49 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:13:54 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:15:14 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:18:42 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:19:28 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:19:41 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:22:10 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:22:21 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:22:37 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:23:07 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:23:16 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:24:23 +0000] \"POST /auth/signup HTTP/1.1\" 200 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:27:39 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:27:47 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:36:29 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:36:42 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:37:16 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:37:22 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:37:45 +0000] \"POST /auth/signup HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:39:55 +0000] \"POST /auth/signup HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:41:12 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [01/Jun/2021:05:47:49 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:47:59 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:48:42 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [01/Jun/2021:05:48:53 +0000] \"POST /auth/signup HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"userData is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:43:48 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"userData is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:45:00 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"userData is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:46:07 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"userData is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:47:25 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Unexpected token } in JSON at position 67","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:47:54 +0000] \"POST /auth/signup HTTP/1.1\" 400 55 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"userData is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:48:07 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"userData is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:48:24 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"userData is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:49:03 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"userData is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:51:16 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"userData is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:51:27 +0000] \"POST /auth/signup HTTP/1.1\" 200 37 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"\"password\" is required","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:52:04 +0000] \"POST /auth/signup HTTP/1.1\" 200 38 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"\"password\" is required","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:52:25 +0000] \"POST /auth/signup HTTP/1.1\" 200 38 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"\"password\" is required","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:52:44 +0000] \"POST /auth/signup HTTP/1.1\" 400 38 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:53:15 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"\"password\" is required","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:53:23 +0000] \"POST /auth/signup HTTP/1.1\" 400 38 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:54:06 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"\"password\" is required","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:54:35 +0000] \"POST /auth/signup HTTP/1.1\" 400 38 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Unexpected token } in JSON at position 26","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:54:53 +0000] \"POST /auth/signup HTTP/1.1\" 400 55 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"\"email\" is required","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:55:09 +0000] \"POST /auth/signup HTTP/1.1\" 400 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:55:17 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:56:10 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:56:18 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:56:22 +0000] \"GET /auth/signup HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:56:26 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:05:57:19 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:00:23 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:00:37 +0000] \"POST /auth/signup HTTP/1.1\" 500 1084 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:00:55 +0000] \"POST /auth/signup HTTP/1.1\" 500 33 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:01:14 +0000] \"POST /auth/signup HTTP/1.1\" 400 33 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:01:31 +0000] \"POST /auth/signup HTTP/1.1\" 409 33 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:01:56 +0000] \"POST /auth/signup HTTP/1.1\" 409 33 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"user is not defined","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:02:25 +0000] \"POST /auth/signup HTTP/1.1\" 409 33 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [03/Jun/2021:06:03:13 +0000] \"POST /auth/signup HTTP/1.1\" 200 10 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [03/Jun/2021:06:04:30 +0000] \"POST /auth/signup HTTP/1.1\" 200 10 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"This name is already in use","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:04:53 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"code":"ETIMEOUT","syscall":"querySrv","hostname":"_mongodb._tcp.starterproject.nbiom.mongodb.net","level":"error"}
+{"code":"ECONNREFUSED","syscall":"querySrv","hostname":"_mongodb._tcp.starterproject.nbiom.mongodb.net","level":"error"}
+{"level":"error"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:22:09 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"level":"error"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:22:53 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"level":"error"}
+{"message":"This name is already in use","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:24:09 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:25:02 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error"}
+{"message":"This name is already in use","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:25:39 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:25:51 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error"}
+{"message":"This name is already in use","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:26:20 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [03/Jun/2021:06:26:37 +0000] \"POST /auth/signup HTTP/1.1\" 201 1009 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"This name is already in use","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:27:54 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"level":"error"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:28:56 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"level":"error"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:29:14 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error"}
+{"message":"This name is already in use","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:29:55 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"Internal Server Error","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:30:04 +0000] \"POST /auth/signup HTTP/1.1\" 500 35 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error"}
+{"message":"This name is already in use","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:32:41 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:33:12 +0000] \"POST /auth/signup HTTP/1.1\" 201 1009 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"This name is already in use","level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:34:18 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [03/Jun/2021:06:34:45 +0000] \"POST /auth/signup HTTP/1.1\" 201 1023 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [03/Jun/2021:06:35:33 +0000] \"POST /auth/signup HTTP/1.1\" 201 1023 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
